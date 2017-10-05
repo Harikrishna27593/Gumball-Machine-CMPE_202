@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=State
-comment1.params=
-comment1.target=void\ insertQuarter()
+comment1.params=n
+comment1.target=void\ insertCoin(int)
 comment2.params=
-comment2.target=void\ ejectQuarter()
+comment2.target=void\ ejectCoin()
 comment3.params=
 comment3.target=void\ turnCrank()
 comment4.params=
