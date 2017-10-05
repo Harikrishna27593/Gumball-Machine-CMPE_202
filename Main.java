@@ -7,14 +7,19 @@ public class Main {
 
 		System.out.println(gumballMachine);
 
-		gumballMachine.insertQuarter();
+		gumballMachine.insertCoin(10);
+		gumballMachine.insertCoin(5);
+		gumballMachine.insertCoin(10);
 		gumballMachine.turnCrank();
+		
+
 
 		System.out.println(gumballMachine);
 
-		gumballMachine.insertQuarter();
+		gumballMachine.insertCoin(25);
+		gumballMachine.insertCoin(25);
 		gumballMachine.turnCrank();
-		gumballMachine.insertQuarter();
+		gumballMachine.insertCoin(5);
 		gumballMachine.turnCrank();
 
 		System.out.println(gumballMachine);
